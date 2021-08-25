@@ -19,7 +19,6 @@ function App() {
             {/* projects */}
             <Projects index={2} active={slide}/>
             {/* contact */}
-
             <Contact index={3} active={slide}/>
         </div>
     )
