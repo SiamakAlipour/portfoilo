@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Slideoptions from './Slideoptions'
 import './Slide.css'
 import { useSelector, useDispatch } from 'react-redux'
-import { setSlideIndex } from './store/actions/actions'
+import { setSlideIndex } from '../store/actions/actions'
 function Slide() {
 	const slide = useSelector((state) => state.slide)
 	const dispatch = useDispatch()
