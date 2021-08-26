@@ -1,5 +1,5 @@
 import React from 'react'
-import './Slideoptions.css'
+import './Slideoptions.scss'
 function Slideoptions({ active, index, onClick }) {
 	return (
 		<span

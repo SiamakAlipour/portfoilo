@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Slideoptions from './Slideoptions'
-import './Slide.css'
+import './Slide.scss'
 import { useSelector, useDispatch } from 'react-redux'
 import { setSlideIndex } from '../store/actions/actions'
 function Slide() {
