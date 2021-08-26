@@ -1,1 +1,2 @@
 export const SET_SLIDE_INDEX = 'SET_SLIDE_INDEX'
+export const PROJECT_ADD = 'PROJECT_ADD'

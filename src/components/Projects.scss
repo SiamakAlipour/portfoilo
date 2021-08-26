@@ -8,21 +8,21 @@
 	transition: 0.4s;
 	transition-delay: 0.2s;
 	color: white;
-	background: #c94b4b; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to right,
-		#4b134f,
-		#c94b4b
-	); /* Chrome 10-25, Safari 5.1-6 */
+	background: rgb(88, 187, 255);
 	background: linear-gradient(
-		to right,
-		#4b134f,
-		#c94b4b
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		180deg,
+		rgba(88, 187, 255, 1) 0%,
+		rgba(0, 61, 108, 1) 100%
+	);
+
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	justify-content: center;
+	padding-top: 20px;
+	> h1 {
+		margin-bottom: 20px;
+	}
 }
 .notDisplay {
 	transform: translateY(-100%);
