@@ -10,12 +10,26 @@
 	&__items {
 		width: 400px;
 		height: 250px;
-		background-color: whitesmoke;
+		background-color: #212121;
 		margin: 10px;
 		border-radius: 5px;
 		position: relative;
 		transition: 0.4s;
 		margin-top: 20px;
+		padding: 5px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+
+		> h1 {
+		}
+		> h2 {
+		}
+		a {
+			color: white;
+			text-decoration: none;
+		}
 		&:hover {
 			transform: scale(1.05);
 		}
@@ -41,7 +55,6 @@
 		}
 	}
 }
-
 @media only screen and (max-width: 1259px) {
 	.projectPosts__items {
 		width: 300px;
